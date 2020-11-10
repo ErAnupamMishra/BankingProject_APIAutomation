@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="4.167238">
+    <testcase classname="Weather Api Feature file for Positive and Negative Scenarios." name="Scenario 1: Validate that attempt to register a weather station without an API key will return response code as 401 and message as Invalid" time="2.868503">
+        <system-out>
+            <![CDATA[Given I want to Access OpenWeather URL......................................passed
+When I have registered a station "without" APIKey and following values......passed
+Then I should receive message body with "cod" as "401"......................passed
+And I will receive message body with "message" as "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Weather Api Feature file for Positive and Negative Scenarios." name="Validate flow for multiple positive scenarios:" time="0.656215">
+        <system-out>
+            <![CDATA[When I register a new station to OpenWhetherMap with values of "DEMO_TEST001","Team Demo Test Station 001","33.33","-122.43","222".passed
+Then I get HTTP response code of "201"......................................passed
+Then I see response json has values of "DEMO_TEST001","Team Demo Test Station 001","33.33","-122.43","222".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Weather Api Feature file for Positive and Negative Scenarios." name="Validate flow for multiple positive scenarios: 2" time="0.64252">
+        <system-out>
+            <![CDATA[When I register a new station to OpenWhetherMap with values of "DEMO_TEST002","Team Demo Test Station 002","44.44","-122.44","111".passed
+Then I get HTTP response code of "201"......................................passed
+Then I see response json has values of "DEMO_TEST002","Team Demo Test Station 002","44.44","-122.44","111".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

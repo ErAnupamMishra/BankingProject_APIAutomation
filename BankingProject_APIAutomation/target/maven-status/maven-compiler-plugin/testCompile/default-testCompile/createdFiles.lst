@@ -1,0 +1,5 @@
+RestAssuredFrameworkWeatherAPI\apiObjects\APIInterface.class
+RestAssuredFrameworkWeatherAPI\apiObjects\APIInterface$fields.class
+RestAssuredFrameworkWeatherAPI\RunFramework.class
+RestAssuredFrameworkWeatherAPI\apiObjects\WeatherMapAPIObject.class
+RestAssuredFrameworkWeatherAPI\stepDefinitions\StepDefWeatherMap.class
