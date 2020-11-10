@@ -27,10 +27,10 @@ Dependencies and versions used (as in package.json)
 
  # Jenkins Steps:
  1. Under Git Integration: pull source code from github:
-<code>git clone git@github.com:ErAnupamMishra/BankingProjects_UIAutomation.git </code>
+<code>git clone git@github.com:ErAnupamMishra/BankingProject_APIAutomation.git </code>
 2. Run commands: "<code>npm i</code>" and "<code>npm test</code>"
 
 # Snapshot
- 1. Sample Snapshot is added under "BankingProject_APIAutomation/target/cucumber-reports/" location
+ 1. Sample Snapshots are added under "BankingProject_APIAutomation/target/cucumber-reports/" location
  
  
