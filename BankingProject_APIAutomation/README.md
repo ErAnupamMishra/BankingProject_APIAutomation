@@ -31,4 +31,6 @@ Dependencies and versions used (as in package.json)
 2. Run commands: "<code>npm i</code>" and "<code>npm test</code>"
 
 # Snapshot
- 1. Sample Snapshot is added as 
+ 1. Sample Snapshot is added under "BankingProject_APIAutomation/target/cucumber-reports/" location
+ 
+ 
